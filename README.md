@@ -1,8 +1,14 @@
-## Setup for running the script
+# Setup for running the script
+
+## Setup Ruby Environment
 
 The Ruby version is specified in the .ruby-version file. I use `rbenv` to
-configure my ruby version on my system, but using either `rvm` or `rbenv`, to
-ensure you are using the proper ruby version will work.
+configure the ruby version on my system, but you can use either `rvm` or `rbenv` to
+set the correct ruby version for this script.
+
+If you don't have either install, you can install `rbenv` [here](https://github.com/rbenv/rbenv#installation)
+
+## Setup and run script
 
 After the `ruby` version has been set, follow these steps to run the script:
 
