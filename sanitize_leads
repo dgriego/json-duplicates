@@ -35,7 +35,7 @@ leads_sorted_by_date.each do |lead|
   end
 end
 
-# NEW FILE OUTPUT
+# CREATE VALID LEADS FILE
 File.open("valid-leads-#{formatted_date}.json", "w+") do |file|
   file.puts valid_leads.to_json
 end
