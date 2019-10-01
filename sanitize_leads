@@ -1,0 +1,78 @@
+#!/usr/bin/env ruby
+require "json"
+require "date"
+
+leads_json = JSON.parse(File.read("leads.json"))["leads"]
+
+def add_padding_to_values(values)
+  values.map { |val| val.center(15, " ") }
+end
+
+def formatted_date(date = nil)
+  d_format = "%Y%m%d-%H:%M:%S"
+  date.nil? ? DateTime.now.strftime(d_format) :
+              DateTime.parse(date).strftime(d_format)
+end
+
+valid_leads = []
+duplicate_leads = []
+
+leads_sorted_by_date = leads_json.sort do |leadA, leadB|
+  leadB["entryDate"] <=> leadA["entryDate"]
+end
+
+# check for duplicate id or email
+# save as valid or duplicate for output
+leads_sorted_by_date.each do |lead|
+  duplicate_id_or_email = valid_leads.any? do |sanitized_lead|
+    (sanitized_lead["_id"] == lead["_id"]) || (sanitized_lead["email"] == lead["email"])
+  end
+
+  unless duplicate_id_or_email
+    valid_leads << lead
+  else
+    duplicate_leads << lead
+  end
+end
+
+# NEW FILE OUTPUT
+File.open("valid-leads-#{formatted_date}.json", "w+") do |file|
+  file.puts valid_leads.to_json
+end
+
+# CLI OUTPUT
+potential_leads_msg = "Total potential Leads: #{leads_json.length}"
+duplicate_leads_msg = "Duplicates found: #{duplicate_leads.length}"
+valid_leads_msg = "Valid leads: #{valid_leads.length}"
+
+puts "LEADS"
+puts "\n"
+puts potential_leads_msg
+puts duplicate_leads_msg
+puts valid_leads_msg
+puts "\n"
+puts add_padding_to_values(%w(ID  Email  First-Name  Last-Name  Address  Entry-Date)).join("|")
+puts "-" * 105
+valid_leads.each do |lead|
+  puts lead.values.map { |val| val.ljust(15, " ") }.join("|")
+end
+
+# LOG OUTPUT
+# log any duplicates found and show input vs output
+File.open("change_log.txt", "a") do |file|
+  file.puts "[LOG_ENTRY: #{formatted_date}] ".ljust(100, "-") << "\n"
+  file.puts "#{potential_leads_msg}\n"
+  file.puts "#{duplicate_leads_msg}\n"
+  file.puts "#{valid_leads_msg}\n\n"
+
+  # Original Input
+  file.puts "[INPUT]"
+  file.puts leads_json.to_s
+
+  file.puts "\n"
+
+  # Output
+  file.puts "[OUTPUT]"
+  file.puts valid_leads.to_s
+  file.puts "\n"
+end
