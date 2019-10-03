@@ -208,10 +208,4 @@ class Lead
       "\n"
     ]
   end
-
-  # def formatted_date(date = nil)
-  #   d_format = "%Y%m%d-%H:%M:%S"
-  #   date.nil? ? DateTime.now.strftime(d_format) :
-  #               DateTime.parse(date).strftime(d_format)
-  # end
 end
