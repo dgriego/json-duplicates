@@ -1,0 +1,1604 @@
+[LOG_ENTRY: 20191002-15:40:03] ------------------------------------------------------
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE EMAIL FOUND: mae@bar.com
+
+[DUPLICATE LEAD]:
+{
+  "_id": "edu45238jdsnfsj23",
+  "email": "mae@bar.com",
+  "firstName": "Ted",
+  "lastName": "Masters",
+  "address": "44 North Hampton St",
+  "entryDate": "2014-05-07T17:31:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "belr28238jdsnfsj23",
+  "email": "mae@bar.com",
+  "firstName": "Tallulah",
+  "lastName": "Smith",
+  "address": "123 Water St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+_id field changed from "edu45238jdsnfsj23" to "belr28238jdsnfsj23"
+Firstname field changed from "Ted" to "Tallulah"
+Lastname field changed from "Masters" to "Smith"
+Address field changed from "44 North Hampton St" to "123 Water St"
+Entrydate field changed from "2014-05-07T17:31:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE EMAIL FOUND: foo@bar.com
+
+[DUPLICATE LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "foo@bar.com",
+  "firstName": "John",
+  "lastName": "Smith",
+  "address": "123 Street St",
+  "entryDate": "2014-05-07T17:30:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "wuj08238jdsnfsj23",
+  "email": "foo@bar.com",
+  "firstName": "Micah",
+  "lastName": "Valmer",
+  "address": "123 Street St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+_id field changed from "jkj238238jdsnfsj23" to "wuj08238jdsnfsj23"
+Firstname field changed from "John" to "Micah"
+Lastname field changed from "Smith" to "Valmer"
+Entrydate field changed from "2014-05-07T17:30:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE ID FOUND: jkj238238jdsnfsj23
+
+[DUPLICATE LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "coo@bar.com",
+  "firstName": "Ted",
+  "lastName": "Jones",
+  "address": "456 Neat St",
+  "entryDate": "2014-05-07T17:32:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "bill@bar.com",
+  "firstName": "John",
+  "lastName": "Smith",
+  "address": "888 Mayberry St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+Email field changed from "coo@bar.com" to "bill@bar.com"
+Firstname field changed from "Ted" to "John"
+Lastname field changed from "Jones" to "Smith"
+Address field changed from "456 Neat St" to "888 Mayberry St"
+Entrydate field changed from "2014-05-07T17:32:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+
+[SUMMARY]-------------------------------
+
+Total potential leads: 10
+Total valid leads: 5
+Duplicate leads by email: 4
+Duplicate leads by id: 1
+Leads removed: 5
+
+----------------------------------------
+[LOG_ENTRY: 20191002-15:45:00] ------------------------------------------------------
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE EMAIL FOUND: mae@bar.com
+
+[DUPLICATE LEAD]:
+{
+  "_id": "edu45238jdsnfsj23",
+  "email": "mae@bar.com",
+  "firstName": "Ted",
+  "lastName": "Masters",
+  "address": "44 North Hampton St",
+  "entryDate": "2014-05-07T17:31:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "belr28238jdsnfsj23",
+  "email": "mae@bar.com",
+  "firstName": "Tallulah",
+  "lastName": "Smith",
+  "address": "123 Water St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+_id field changed from "edu45238jdsnfsj23" to "belr28238jdsnfsj23"
+Firstname field changed from "Ted" to "Tallulah"
+Lastname field changed from "Masters" to "Smith"
+Address field changed from "44 North Hampton St" to "123 Water St"
+Entrydate field changed from "2014-05-07T17:31:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE EMAIL FOUND: foo@bar.com
+
+[DUPLICATE LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "foo@bar.com",
+  "firstName": "John",
+  "lastName": "Smith",
+  "address": "123 Street St",
+  "entryDate": "2014-05-07T17:30:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "wuj08238jdsnfsj23",
+  "email": "foo@bar.com",
+  "firstName": "Micah",
+  "lastName": "Valmer",
+  "address": "123 Street St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+_id field changed from "jkj238238jdsnfsj23" to "wuj08238jdsnfsj23"
+Firstname field changed from "John" to "Micah"
+Lastname field changed from "Smith" to "Valmer"
+Entrydate field changed from "2014-05-07T17:30:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE ID FOUND: jkj238238jdsnfsj23
+
+[DUPLICATE LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "coo@bar.com",
+  "firstName": "Ted",
+  "lastName": "Jones",
+  "address": "456 Neat St",
+  "entryDate": "2014-05-07T17:32:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "bill@bar.com",
+  "firstName": "John",
+  "lastName": "Smith",
+  "address": "888 Mayberry St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+Email field changed from "coo@bar.com" to "bill@bar.com"
+Firstname field changed from "Ted" to "John"
+Lastname field changed from "Jones" to "Smith"
+Address field changed from "456 Neat St" to "888 Mayberry St"
+Entrydate field changed from "2014-05-07T17:32:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+
+[SUMMARY]-------------------------------
+
+Total potential leads: 10
+Total valid leads: 5
+Duplicate leads by email: 4
+Duplicate leads by id: 1
+Leads removed: 5
+
+----------------------------------------
+[LOG_ENTRY: 20191002-15:48:29] ------------------------------------------------------
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE EMAIL FOUND: mae@bar.com
+
+[DUPLICATE LEAD]:
+{
+  "_id": "edu45238jdsnfsj23",
+  "email": "mae@bar.com",
+  "firstName": "Ted",
+  "lastName": "Masters",
+  "address": "44 North Hampton St",
+  "entryDate": "2014-05-07T17:31:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "belr28238jdsnfsj23",
+  "email": "mae@bar.com",
+  "firstName": "Tallulah",
+  "lastName": "Smith",
+  "address": "123 Water St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+_id field changed from "edu45238jdsnfsj23" to "belr28238jdsnfsj23"
+Firstname field changed from "Ted" to "Tallulah"
+Lastname field changed from "Masters" to "Smith"
+Address field changed from "44 North Hampton St" to "123 Water St"
+Entrydate field changed from "2014-05-07T17:31:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE EMAIL FOUND: foo@bar.com
+
+[DUPLICATE LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "foo@bar.com",
+  "firstName": "John",
+  "lastName": "Smith",
+  "address": "123 Street St",
+  "entryDate": "2014-05-07T17:30:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "wuj08238jdsnfsj23",
+  "email": "foo@bar.com",
+  "firstName": "Micah",
+  "lastName": "Valmer",
+  "address": "123 Street St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+_id field changed from "jkj238238jdsnfsj23" to "wuj08238jdsnfsj23"
+Firstname field changed from "John" to "Micah"
+Lastname field changed from "Smith" to "Valmer"
+Entrydate field changed from "2014-05-07T17:30:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE ID FOUND: jkj238238jdsnfsj23
+
+[DUPLICATE LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "coo@bar.com",
+  "firstName": "Ted",
+  "lastName": "Jones",
+  "address": "456 Neat St",
+  "entryDate": "2014-05-07T17:32:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "bill@bar.com",
+  "firstName": "John",
+  "lastName": "Smith",
+  "address": "888 Mayberry St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+Email field changed from "coo@bar.com" to "bill@bar.com"
+Firstname field changed from "Ted" to "John"
+Lastname field changed from "Jones" to "Smith"
+Address field changed from "456 Neat St" to "888 Mayberry St"
+Entrydate field changed from "2014-05-07T17:32:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+
+[SUMMARY]-------------------------------
+
+Total potential leads: 10
+Total valid leads: 5
+Duplicate leads by email: 4
+Duplicate leads by id: 1
+Leads removed: 5
+
+----------------------------------------
+[LOG_ENTRY: 20191002-15:50:20] ------------------------------------------------------
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE EMAIL FOUND: mae@bar.com
+
+[DUPLICATE LEAD]:
+{
+  "_id": "edu45238jdsnfsj23",
+  "email": "mae@bar.com",
+  "firstName": "Ted",
+  "lastName": "Masters",
+  "address": "44 North Hampton St",
+  "entryDate": "2014-05-07T17:31:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "belr28238jdsnfsj23",
+  "email": "mae@bar.com",
+  "firstName": "Tallulah",
+  "lastName": "Smith",
+  "address": "123 Water St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+_id field changed from "edu45238jdsnfsj23" to "belr28238jdsnfsj23"
+Firstname field changed from "Ted" to "Tallulah"
+Lastname field changed from "Masters" to "Smith"
+Address field changed from "44 North Hampton St" to "123 Water St"
+Entrydate field changed from "2014-05-07T17:31:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE EMAIL FOUND: foo@bar.com
+
+[DUPLICATE LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "foo@bar.com",
+  "firstName": "John",
+  "lastName": "Smith",
+  "address": "123 Street St",
+  "entryDate": "2014-05-07T17:30:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "wuj08238jdsnfsj23",
+  "email": "foo@bar.com",
+  "firstName": "Micah",
+  "lastName": "Valmer",
+  "address": "123 Street St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+_id field changed from "jkj238238jdsnfsj23" to "wuj08238jdsnfsj23"
+Firstname field changed from "John" to "Micah"
+Lastname field changed from "Smith" to "Valmer"
+Entrydate field changed from "2014-05-07T17:30:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE ID FOUND: jkj238238jdsnfsj23
+
+[DUPLICATE LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "coo@bar.com",
+  "firstName": "Ted",
+  "lastName": "Jones",
+  "address": "456 Neat St",
+  "entryDate": "2014-05-07T17:32:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "bill@bar.com",
+  "firstName": "John",
+  "lastName": "Smith",
+  "address": "888 Mayberry St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+Email field changed from "coo@bar.com" to "bill@bar.com"
+Firstname field changed from "Ted" to "John"
+Lastname field changed from "Jones" to "Smith"
+Address field changed from "456 Neat St" to "888 Mayberry St"
+Entrydate field changed from "2014-05-07T17:32:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+
+[SUMMARY]-------------------------------
+
+Total potential leads: 10
+Total valid leads: 5
+Duplicate leads by email: 4
+Duplicate leads by id: 1
+Leads removed: 5
+
+----------------------------------------
+[LOG_ENTRY: 20191002-16:43:03] ------------------------------------------------------
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE EMAIL FOUND: mae@bar.com
+
+[DUPLICATE LEAD]:
+{
+  "_id": "edu45238jdsnfsj23",
+  "email": "mae@bar.com",
+  "firstName": "Ted",
+  "lastName": "Masters",
+  "address": "44 North Hampton St",
+  "entryDate": "2014-05-07T17:31:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "belr28238jdsnfsj23",
+  "email": "mae@bar.com",
+  "firstName": "Tallulah",
+  "lastName": "Smith",
+  "address": "123 Water St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+_id field changed from "edu45238jdsnfsj23" to "belr28238jdsnfsj23"
+Firstname field changed from "Ted" to "Tallulah"
+Lastname field changed from "Masters" to "Smith"
+Address field changed from "44 North Hampton St" to "123 Water St"
+Entrydate field changed from "2014-05-07T17:31:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE EMAIL FOUND: foo@bar.com
+
+[DUPLICATE LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "foo@bar.com",
+  "firstName": "John",
+  "lastName": "Smith",
+  "address": "123 Street St",
+  "entryDate": "2014-05-07T17:30:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "wuj08238jdsnfsj23",
+  "email": "foo@bar.com",
+  "firstName": "Micah",
+  "lastName": "Valmer",
+  "address": "123 Street St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+_id field changed from "jkj238238jdsnfsj23" to "wuj08238jdsnfsj23"
+Firstname field changed from "John" to "Micah"
+Lastname field changed from "Smith" to "Valmer"
+Entrydate field changed from "2014-05-07T17:30:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE ID FOUND: jkj238238jdsnfsj23
+
+[DUPLICATE LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "coo@bar.com",
+  "firstName": "Ted",
+  "lastName": "Jones",
+  "address": "456 Neat St",
+  "entryDate": "2014-05-07T17:32:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "bill@bar.com",
+  "firstName": "John",
+  "lastName": "Smith",
+  "address": "888 Mayberry St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+Email field changed from "coo@bar.com" to "bill@bar.com"
+Firstname field changed from "Ted" to "John"
+Lastname field changed from "Jones" to "Smith"
+Address field changed from "456 Neat St" to "888 Mayberry St"
+Entrydate field changed from "2014-05-07T17:32:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+
+[SUMMARY]-------------------------------
+
+Total potential leads: 10
+Total valid leads: 5
+Duplicate leads by email: 4
+Duplicate leads by id: 1
+Leads removed: 5
+
+----------------------------------------
+[LOG_ENTRY: 20191002-16:43:35] ------------------------------------------------------
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE EMAIL FOUND: mae@bar.com
+
+[DUPLICATE LEAD]:
+{
+  "_id": "edu45238jdsnfsj23",
+  "email": "mae@bar.com",
+  "firstName": "Ted",
+  "lastName": "Masters",
+  "address": "44 North Hampton St",
+  "entryDate": "2014-05-07T17:31:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "belr28238jdsnfsj23",
+  "email": "mae@bar.com",
+  "firstName": "Tallulah",
+  "lastName": "Smith",
+  "address": "123 Water St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+_id field changed from "edu45238jdsnfsj23" to "belr28238jdsnfsj23"
+Firstname field changed from "Ted" to "Tallulah"
+Lastname field changed from "Masters" to "Smith"
+Address field changed from "44 North Hampton St" to "123 Water St"
+Entrydate field changed from "2014-05-07T17:31:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE EMAIL FOUND: foo@bar.com
+
+[DUPLICATE LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "foo@bar.com",
+  "firstName": "John",
+  "lastName": "Smith",
+  "address": "123 Street St",
+  "entryDate": "2014-05-07T17:30:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "wuj08238jdsnfsj23",
+  "email": "foo@bar.com",
+  "firstName": "Micah",
+  "lastName": "Valmer",
+  "address": "123 Street St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+_id field changed from "jkj238238jdsnfsj23" to "wuj08238jdsnfsj23"
+Firstname field changed from "John" to "Micah"
+Lastname field changed from "Smith" to "Valmer"
+Entrydate field changed from "2014-05-07T17:30:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE ID FOUND: jkj238238jdsnfsj23
+
+[DUPLICATE LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "coo@bar.com",
+  "firstName": "Ted",
+  "lastName": "Jones",
+  "address": "456 Neat St",
+  "entryDate": "2014-05-07T17:32:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "bill@bar.com",
+  "firstName": "John",
+  "lastName": "Smith",
+  "address": "888 Mayberry St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+Email field changed from "coo@bar.com" to "bill@bar.com"
+Firstname field changed from "Ted" to "John"
+Lastname field changed from "Jones" to "Smith"
+Address field changed from "456 Neat St" to "888 Mayberry St"
+Entrydate field changed from "2014-05-07T17:32:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+
+[SUMMARY]-------------------------------
+
+Total potential leads: 10
+Total valid leads: 5
+Duplicate leads by email: 4
+Duplicate leads by id: 1
+Leads removed: 5
+
+----------------------------------------
+[LOG_ENTRY: 20191002-17:01:58] ------------------------------------------------------
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE EMAIL FOUND: mae@bar.com
+
+[DUPLICATE LEAD]:
+{
+  "_id": "edu45238jdsnfsj23",
+  "email": "mae@bar.com",
+  "firstName": "Ted",
+  "lastName": "Masters",
+  "address": "44 North Hampton St",
+  "entryDate": "2014-05-07T17:31:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "belr28238jdsnfsj23",
+  "email": "mae@bar.com",
+  "firstName": "Tallulah",
+  "lastName": "Smith",
+  "address": "123 Water St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+_id field changed from "edu45238jdsnfsj23" to "belr28238jdsnfsj23"
+Firstname field changed from "Ted" to "Tallulah"
+Lastname field changed from "Masters" to "Smith"
+Address field changed from "44 North Hampton St" to "123 Water St"
+Entrydate field changed from "2014-05-07T17:31:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE EMAIL FOUND: foo@bar.com
+
+[DUPLICATE LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "foo@bar.com",
+  "firstName": "John",
+  "lastName": "Smith",
+  "address": "123 Street St",
+  "entryDate": "2014-05-07T17:30:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "wuj08238jdsnfsj23",
+  "email": "foo@bar.com",
+  "firstName": "Micah",
+  "lastName": "Valmer",
+  "address": "123 Street St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+_id field changed from "jkj238238jdsnfsj23" to "wuj08238jdsnfsj23"
+Firstname field changed from "John" to "Micah"
+Lastname field changed from "Smith" to "Valmer"
+Entrydate field changed from "2014-05-07T17:30:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE ID FOUND: jkj238238jdsnfsj23
+
+[DUPLICATE LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "coo@bar.com",
+  "firstName": "Ted",
+  "lastName": "Jones",
+  "address": "456 Neat St",
+  "entryDate": "2014-05-07T17:32:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "bill@bar.com",
+  "firstName": "John",
+  "lastName": "Smith",
+  "address": "888 Mayberry St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+Email field changed from "coo@bar.com" to "bill@bar.com"
+Firstname field changed from "Ted" to "John"
+Lastname field changed from "Jones" to "Smith"
+Address field changed from "456 Neat St" to "888 Mayberry St"
+Entrydate field changed from "2014-05-07T17:32:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+
+[SUMMARY]-------------------------------
+
+Total potential leads: 10
+Total valid leads: 5
+Duplicate leads by email: 4
+Duplicate leads by id: 1
+Leads removed: 5
+
+----------------------------------------
+[LOG_ENTRY: 20191002-17:05:27] ------------------------------------------------------
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE EMAIL FOUND: mae@bar.com
+
+[DUPLICATE LEAD]:
+{
+  "_id": "edu45238jdsnfsj23",
+  "email": "mae@bar.com",
+  "firstName": "Ted",
+  "lastName": "Masters",
+  "address": "44 North Hampton St",
+  "entryDate": "2014-05-07T17:31:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "belr28238jdsnfsj23",
+  "email": "mae@bar.com",
+  "firstName": "Tallulah",
+  "lastName": "Smith",
+  "address": "123 Water St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+_id field changed from "edu45238jdsnfsj23" to "belr28238jdsnfsj23"
+Firstname field changed from "Ted" to "Tallulah"
+Lastname field changed from "Masters" to "Smith"
+Address field changed from "44 North Hampton St" to "123 Water St"
+Entrydate field changed from "2014-05-07T17:31:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE EMAIL FOUND: foo@bar.com
+
+[DUPLICATE LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "foo@bar.com",
+  "firstName": "John",
+  "lastName": "Smith",
+  "address": "123 Street St",
+  "entryDate": "2014-05-07T17:30:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "wuj08238jdsnfsj23",
+  "email": "foo@bar.com",
+  "firstName": "Micah",
+  "lastName": "Valmer",
+  "address": "123 Street St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+_id field changed from "jkj238238jdsnfsj23" to "wuj08238jdsnfsj23"
+Firstname field changed from "John" to "Micah"
+Lastname field changed from "Smith" to "Valmer"
+Entrydate field changed from "2014-05-07T17:30:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE ID FOUND: jkj238238jdsnfsj23
+
+[DUPLICATE LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "coo@bar.com",
+  "firstName": "Ted",
+  "lastName": "Jones",
+  "address": "456 Neat St",
+  "entryDate": "2014-05-07T17:32:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "bill@bar.com",
+  "firstName": "John",
+  "lastName": "Smith",
+  "address": "888 Mayberry St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+Email field changed from "coo@bar.com" to "bill@bar.com"
+Firstname field changed from "Ted" to "John"
+Lastname field changed from "Jones" to "Smith"
+Address field changed from "456 Neat St" to "888 Mayberry St"
+Entrydate field changed from "2014-05-07T17:32:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+
+[SUMMARY]-------------------------------
+
+Total potential leads: 10
+Total valid leads: 5
+Duplicate leads by email: 4
+Duplicate leads by id: 1
+Leads removed: 5
+
+----------------------------------------
+[LOG_ENTRY: 20191002-17:54:22] ------------------------------------------------------
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE EMAIL FOUND: foo@bar.com
+DUPLICATE ID FOUND: 
+
+[DUPLICATE LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "foo@bar.com",
+  "firstName": "John",
+  "lastName": "Smith",
+  "address": "123 Street St",
+  "entryDate": "2014-05-07T17:30:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "belr28238jdsnfsj23",
+  "email": "mae@bar.com",
+  "firstName": "Tallulah",
+  "lastName": "Smith",
+  "address": "123 Water St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+_id field changed from "jkj238238jdsnfsj23" to "belr28238jdsnfsj23"
+Email field changed from "foo@bar.com" to "mae@bar.com"
+Firstname field changed from "John" to "Tallulah"
+Address field changed from "123 Street St" to "123 Water St"
+Entrydate field changed from "2014-05-07T17:30:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+
+[SUMMARY]-------------------------------
+
+Total potential leads: 10
+Total valid leads: 1
+Duplicate leads by email: 1
+Duplicate leads by id: 9
+Leads removed: 9
+
+----------------------------------------
+[LOG_ENTRY: 20191002-17:54:40] ------------------------------------------------------
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE EMAIL FOUND: mae@bar.com
+
+[DUPLICATE LEAD]:
+{
+  "_id": "edu45238jdsnfsj23",
+  "email": "mae@bar.com",
+  "firstName": "Ted",
+  "lastName": "Masters",
+  "address": "44 North Hampton St",
+  "entryDate": "2014-05-07T17:31:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "belr28238jdsnfsj23",
+  "email": "mae@bar.com",
+  "firstName": "Tallulah",
+  "lastName": "Smith",
+  "address": "123 Water St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+_id field changed from "edu45238jdsnfsj23" to "belr28238jdsnfsj23"
+Firstname field changed from "Ted" to "Tallulah"
+Lastname field changed from "Masters" to "Smith"
+Address field changed from "44 North Hampton St" to "123 Water St"
+Entrydate field changed from "2014-05-07T17:31:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE EMAIL FOUND: foo@bar.com
+
+[DUPLICATE LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "foo@bar.com",
+  "firstName": "John",
+  "lastName": "Smith",
+  "address": "123 Street St",
+  "entryDate": "2014-05-07T17:30:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "wuj08238jdsnfsj23",
+  "email": "foo@bar.com",
+  "firstName": "Micah",
+  "lastName": "Valmer",
+  "address": "123 Street St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+_id field changed from "jkj238238jdsnfsj23" to "wuj08238jdsnfsj23"
+Firstname field changed from "John" to "Micah"
+Lastname field changed from "Smith" to "Valmer"
+Entrydate field changed from "2014-05-07T17:30:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE ID FOUND: jkj238238jdsnfsj23
+
+[DUPLICATE LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "coo@bar.com",
+  "firstName": "Ted",
+  "lastName": "Jones",
+  "address": "456 Neat St",
+  "entryDate": "2014-05-07T17:32:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "bill@bar.com",
+  "firstName": "John",
+  "lastName": "Smith",
+  "address": "888 Mayberry St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+Email field changed from "coo@bar.com" to "bill@bar.com"
+Firstname field changed from "Ted" to "John"
+Lastname field changed from "Jones" to "Smith"
+Address field changed from "456 Neat St" to "888 Mayberry St"
+Entrydate field changed from "2014-05-07T17:32:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+
+[SUMMARY]-------------------------------
+
+Total potential leads: 10
+Total valid leads: 5
+Duplicate leads by email: 4
+Duplicate leads by id: 1
+Leads removed: 5
+
+----------------------------------------
+[LOG_ENTRY: 20191002-17:54:44] ------------------------------------------------------
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE EMAIL FOUND: mae@bar.com
+
+[DUPLICATE LEAD]:
+{
+  "_id": "edu45238jdsnfsj23",
+  "email": "mae@bar.com",
+  "firstName": "Ted",
+  "lastName": "Masters",
+  "address": "44 North Hampton St",
+  "entryDate": "2014-05-07T17:31:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "belr28238jdsnfsj23",
+  "email": "mae@bar.com",
+  "firstName": "Tallulah",
+  "lastName": "Smith",
+  "address": "123 Water St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+_id field changed from "edu45238jdsnfsj23" to "belr28238jdsnfsj23"
+Firstname field changed from "Ted" to "Tallulah"
+Lastname field changed from "Masters" to "Smith"
+Address field changed from "44 North Hampton St" to "123 Water St"
+Entrydate field changed from "2014-05-07T17:31:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE EMAIL FOUND: foo@bar.com
+
+[DUPLICATE LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "foo@bar.com",
+  "firstName": "John",
+  "lastName": "Smith",
+  "address": "123 Street St",
+  "entryDate": "2014-05-07T17:30:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "wuj08238jdsnfsj23",
+  "email": "foo@bar.com",
+  "firstName": "Micah",
+  "lastName": "Valmer",
+  "address": "123 Street St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+_id field changed from "jkj238238jdsnfsj23" to "wuj08238jdsnfsj23"
+Firstname field changed from "John" to "Micah"
+Lastname field changed from "Smith" to "Valmer"
+Entrydate field changed from "2014-05-07T17:30:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE ID FOUND: jkj238238jdsnfsj23
+
+[DUPLICATE LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "coo@bar.com",
+  "firstName": "Ted",
+  "lastName": "Jones",
+  "address": "456 Neat St",
+  "entryDate": "2014-05-07T17:32:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "bill@bar.com",
+  "firstName": "John",
+  "lastName": "Smith",
+  "address": "888 Mayberry St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+Email field changed from "coo@bar.com" to "bill@bar.com"
+Firstname field changed from "Ted" to "John"
+Lastname field changed from "Jones" to "Smith"
+Address field changed from "456 Neat St" to "888 Mayberry St"
+Entrydate field changed from "2014-05-07T17:32:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+
+[SUMMARY]-------------------------------
+
+Total potential leads: 10
+Total valid leads: 5
+Duplicate leads by email: 4
+Duplicate leads by id: 1
+Leads removed: 5
+
+----------------------------------------
+[LOG_ENTRY: 20191002-17:54:54] ------------------------------------------------------
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE EMAIL FOUND: mae@bar.com
+
+[DUPLICATE LEAD]:
+{
+  "_id": "edu45238jdsnfsj23",
+  "email": "mae@bar.com",
+  "firstName": "Ted",
+  "lastName": "Masters",
+  "address": "44 North Hampton St",
+  "entryDate": "2014-05-07T17:31:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "belr28238jdsnfsj23",
+  "email": "mae@bar.com",
+  "firstName": "Tallulah",
+  "lastName": "Smith",
+  "address": "123 Water St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+_id field changed from "edu45238jdsnfsj23" to "belr28238jdsnfsj23"
+Firstname field changed from "Ted" to "Tallulah"
+Lastname field changed from "Masters" to "Smith"
+Address field changed from "44 North Hampton St" to "123 Water St"
+Entrydate field changed from "2014-05-07T17:31:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE EMAIL FOUND: foo@bar.com
+
+[DUPLICATE LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "foo@bar.com",
+  "firstName": "John",
+  "lastName": "Smith",
+  "address": "123 Street St",
+  "entryDate": "2014-05-07T17:30:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "wuj08238jdsnfsj23",
+  "email": "foo@bar.com",
+  "firstName": "Micah",
+  "lastName": "Valmer",
+  "address": "123 Street St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+_id field changed from "jkj238238jdsnfsj23" to "wuj08238jdsnfsj23"
+Firstname field changed from "John" to "Micah"
+Lastname field changed from "Smith" to "Valmer"
+Entrydate field changed from "2014-05-07T17:30:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE ID FOUND: jkj238238jdsnfsj23
+
+[DUPLICATE LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "coo@bar.com",
+  "firstName": "Ted",
+  "lastName": "Jones",
+  "address": "456 Neat St",
+  "entryDate": "2014-05-07T17:32:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "bill@bar.com",
+  "firstName": "John",
+  "lastName": "Smith",
+  "address": "888 Mayberry St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+Email field changed from "coo@bar.com" to "bill@bar.com"
+Firstname field changed from "Ted" to "John"
+Lastname field changed from "Jones" to "Smith"
+Address field changed from "456 Neat St" to "888 Mayberry St"
+Entrydate field changed from "2014-05-07T17:32:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+
+[SUMMARY]-------------------------------
+
+Total potential leads: 10
+Total valid leads: 5
+Duplicate leads by email: 4
+Duplicate leads by id: 1
+Leads removed: 5
+
+----------------------------------------
+[LOG_ENTRY: 20191002-17:54:59] ------------------------------------------------------
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE EMAIL FOUND: mae@bar.com
+
+[DUPLICATE LEAD]:
+{
+  "_id": "edu45238jdsnfsj23",
+  "email": "mae@bar.com",
+  "firstName": "Ted",
+  "lastName": "Masters",
+  "address": "44 North Hampton St",
+  "entryDate": "2014-05-07T17:31:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "belr28238jdsnfsj23",
+  "email": "mae@bar.com",
+  "firstName": "Tallulah",
+  "lastName": "Smith",
+  "address": "123 Water St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+_id field changed from "edu45238jdsnfsj23" to "belr28238jdsnfsj23"
+Firstname field changed from "Ted" to "Tallulah"
+Lastname field changed from "Masters" to "Smith"
+Address field changed from "44 North Hampton St" to "123 Water St"
+Entrydate field changed from "2014-05-07T17:31:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE EMAIL FOUND: foo@bar.com
+
+[DUPLICATE LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "foo@bar.com",
+  "firstName": "John",
+  "lastName": "Smith",
+  "address": "123 Street St",
+  "entryDate": "2014-05-07T17:30:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "wuj08238jdsnfsj23",
+  "email": "foo@bar.com",
+  "firstName": "Micah",
+  "lastName": "Valmer",
+  "address": "123 Street St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+_id field changed from "jkj238238jdsnfsj23" to "wuj08238jdsnfsj23"
+Firstname field changed from "John" to "Micah"
+Lastname field changed from "Smith" to "Valmer"
+Entrydate field changed from "2014-05-07T17:30:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE ID FOUND: jkj238238jdsnfsj23
+
+[DUPLICATE LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "coo@bar.com",
+  "firstName": "Ted",
+  "lastName": "Jones",
+  "address": "456 Neat St",
+  "entryDate": "2014-05-07T17:32:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "bill@bar.com",
+  "firstName": "John",
+  "lastName": "Smith",
+  "address": "888 Mayberry St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+Email field changed from "coo@bar.com" to "bill@bar.com"
+Firstname field changed from "Ted" to "John"
+Lastname field changed from "Jones" to "Smith"
+Address field changed from "456 Neat St" to "888 Mayberry St"
+Entrydate field changed from "2014-05-07T17:32:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+
+[SUMMARY]-------------------------------
+
+Total potential leads: 10
+Total valid leads: 5
+Duplicate leads by email: 4
+Duplicate leads by id: 1
+Leads removed: 5
+
+----------------------------------------
+[LOG_ENTRY: 20191002-17:57:14] ------------------------------------------------------
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE EMAIL FOUND: mae@bar.com
+
+[DUPLICATE LEAD]:
+{
+  "_id": "edu45238jdsnfsj23",
+  "email": "mae@bar.com",
+  "firstName": "Ted",
+  "lastName": "Masters",
+  "address": "44 North Hampton St",
+  "entryDate": "2014-05-07T17:31:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "belr28238jdsnfsj23",
+  "email": "mae@bar.com",
+  "firstName": "Tallulah",
+  "lastName": "Smith",
+  "address": "123 Water St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+_id field changed from "edu45238jdsnfsj23" to "belr28238jdsnfsj23"
+Firstname field changed from "Ted" to "Tallulah"
+Lastname field changed from "Masters" to "Smith"
+Address field changed from "44 North Hampton St" to "123 Water St"
+Entrydate field changed from "2014-05-07T17:31:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE EMAIL FOUND: foo@bar.com
+
+[DUPLICATE LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "foo@bar.com",
+  "firstName": "John",
+  "lastName": "Smith",
+  "address": "123 Street St",
+  "entryDate": "2014-05-07T17:30:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "wuj08238jdsnfsj23",
+  "email": "foo@bar.com",
+  "firstName": "Micah",
+  "lastName": "Valmer",
+  "address": "123 Street St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+_id field changed from "jkj238238jdsnfsj23" to "wuj08238jdsnfsj23"
+Firstname field changed from "John" to "Micah"
+Lastname field changed from "Smith" to "Valmer"
+Entrydate field changed from "2014-05-07T17:30:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE ID FOUND: jkj238238jdsnfsj23
+
+[DUPLICATE LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "coo@bar.com",
+  "firstName": "Ted",
+  "lastName": "Jones",
+  "address": "456 Neat St",
+  "entryDate": "2014-05-07T17:32:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "bill@bar.com",
+  "firstName": "John",
+  "lastName": "Smith",
+  "address": "888 Mayberry St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+Email field changed from "coo@bar.com" to "bill@bar.com"
+Firstname field changed from "Ted" to "John"
+Lastname field changed from "Jones" to "Smith"
+Address field changed from "456 Neat St" to "888 Mayberry St"
+Entrydate field changed from "2014-05-07T17:32:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+
+[SUMMARY]-------------------------------
+
+Total potential leads: 10
+Total valid leads: 5
+Duplicate leads by email: 4
+Duplicate leads by id: 1
+Leads removed: 5
+
+----------------------------------------
+[LOG_ENTRY: 20191002-18:30:47] ------------------------------------------------------
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE EMAIL FOUND: mae@bar.com
+
+[DUPLICATE LEAD]:
+{
+  "_id": "edu45238jdsnfsj23",
+  "email": "mae@bar.com",
+  "firstName": "Ted",
+  "lastName": "Masters",
+  "address": "44 North Hampton St",
+  "entryDate": "2014-05-07T17:31:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "belr28238jdsnfsj23",
+  "email": "mae@bar.com",
+  "firstName": "Tallulah",
+  "lastName": "Smith",
+  "address": "123 Water St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+_id field changed from "edu45238jdsnfsj23" to "belr28238jdsnfsj23"
+Firstname field changed from "Ted" to "Tallulah"
+Lastname field changed from "Masters" to "Smith"
+Address field changed from "44 North Hampton St" to "123 Water St"
+Entrydate field changed from "2014-05-07T17:31:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE EMAIL FOUND: foo@bar.com
+
+[DUPLICATE LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "foo@bar.com",
+  "firstName": "John",
+  "lastName": "Smith",
+  "address": "123 Street St",
+  "entryDate": "2014-05-07T17:30:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "wuj08238jdsnfsj23",
+  "email": "foo@bar.com",
+  "firstName": "Micah",
+  "lastName": "Valmer",
+  "address": "123 Street St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+_id field changed from "jkj238238jdsnfsj23" to "wuj08238jdsnfsj23"
+Firstname field changed from "John" to "Micah"
+Lastname field changed from "Smith" to "Valmer"
+Entrydate field changed from "2014-05-07T17:30:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE ID FOUND: jkj238238jdsnfsj23
+
+[DUPLICATE LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "coo@bar.com",
+  "firstName": "Ted",
+  "lastName": "Jones",
+  "address": "456 Neat St",
+  "entryDate": "2014-05-07T17:32:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "bill@bar.com",
+  "firstName": "John",
+  "lastName": "Smith",
+  "address": "888 Mayberry St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+Email field changed from "coo@bar.com" to "bill@bar.com"
+Firstname field changed from "Ted" to "John"
+Lastname field changed from "Jones" to "Smith"
+Address field changed from "456 Neat St" to "888 Mayberry St"
+Entrydate field changed from "2014-05-07T17:32:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+
+[SUMMARY]-------------------------------
+
+Total potential leads: 10
+Total valid leads: 5
+Duplicate leads by email: 4
+Duplicate leads by id: 1
+Leads removed: 5
+
+----------------------------------------
+[LOG_ENTRY: 20191002-18:31:00] ------------------------------------------------------
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE EMAIL FOUND: mae@bar.com
+
+[DUPLICATE LEAD]:
+{
+  "_id": "edu45238jdsnfsj23",
+  "email": "mae@bar.com",
+  "firstName": "Ted",
+  "lastName": "Masters",
+  "address": "44 North Hampton St",
+  "entryDate": "2014-05-07T17:31:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "belr28238jdsnfsj23",
+  "email": "mae@bar.com",
+  "firstName": "Tallulah",
+  "lastName": "Smith",
+  "address": "123 Water St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+_id field changed from "edu45238jdsnfsj23" to "belr28238jdsnfsj23"
+Firstname field changed from "Ted" to "Tallulah"
+Lastname field changed from "Masters" to "Smith"
+Address field changed from "44 North Hampton St" to "123 Water St"
+Entrydate field changed from "2014-05-07T17:31:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE EMAIL FOUND: foo@bar.com
+
+[DUPLICATE LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "foo@bar.com",
+  "firstName": "John",
+  "lastName": "Smith",
+  "address": "123 Street St",
+  "entryDate": "2014-05-07T17:30:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "wuj08238jdsnfsj23",
+  "email": "foo@bar.com",
+  "firstName": "Micah",
+  "lastName": "Valmer",
+  "address": "123 Street St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+_id field changed from "jkj238238jdsnfsj23" to "wuj08238jdsnfsj23"
+Firstname field changed from "John" to "Micah"
+Lastname field changed from "Smith" to "Valmer"
+Entrydate field changed from "2014-05-07T17:30:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE ID FOUND: jkj238238jdsnfsj23
+
+[DUPLICATE LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "coo@bar.com",
+  "firstName": "Ted",
+  "lastName": "Jones",
+  "address": "456 Neat St",
+  "entryDate": "2014-05-07T17:32:20+00:00"
+}
+
+[UPDATED LEAD]:
+{
+  "_id": "jkj238238jdsnfsj23",
+  "email": "bill@bar.com",
+  "firstName": "John",
+  "lastName": "Smith",
+  "address": "888 Mayberry St",
+  "entryDate": "2014-05-07T17:33:20+00:00"
+}
+
+[FIELD CHANGES]
+Email field changed from "coo@bar.com" to "bill@bar.com"
+Firstname field changed from "Ted" to "John"
+Lastname field changed from "Jones" to "Smith"
+Address field changed from "456 Neat St" to "888 Mayberry St"
+Entrydate field changed from "2014-05-07T17:32:20+00:00" to "2014-05-07T17:33:20+00:00"
+
+
+[SUMMARY]-------------------------------
+
+Total potential leads: 10
+Total valid leads: 5
+Duplicate leads by email: 4
+Duplicate leads by id: 1
+Leads removed: 5
+
+----------------------------------------
