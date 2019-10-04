@@ -26,7 +26,7 @@ There are assumptions made and I didn't cover every edge case, including that
 the leads will be in the form of JSON and will always be in the structure.  The
 tests aim to cover core elements of the Lead class behavior
 
-`ruby tests/sanitize_leads_spec.rb`
+`cd tests && ruby sanitize_leads_spec.rb`
 
 ## When the script is run, it will produce the following results:
 - Output the valid leads as json into a generated file labeled "valid-leads"

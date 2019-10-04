@@ -1,11 +1,12 @@
 require "minitest/autorun"
 require "minitest/hooks/test"
 require "json"
-require_relative "./../lead.rb"
 require "date"
+require_relative "./../lead.rb"
 
 class TestLead < Minitest::Test
   include Minitest::Hooks
+
   def setup
     Lead.clear_valid
     Lead.clear_duplicates
