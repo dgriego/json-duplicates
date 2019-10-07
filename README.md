@@ -26,11 +26,7 @@ To remove all generated files and reset the change log, run:
 
 `./clean_files`
 
-## Run Test suite
-
-There are assumptions made and I didn't cover every edge case, including that
-the leads will be in the form of JSON and will always be in the structure.  The
-tests aim to cover core elements of the Lead class behavior
+## Run the test
 
 `ruby tests/deduplicate_leads_spec.rb`
 
