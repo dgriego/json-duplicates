@@ -1,0 +1,27 @@
+#!/usr/bin/env ruby
+
+require_relative "lead"
+require_relative "lead_collection"
+
+LEADS_FILE = "leads.json"
+
+lead_collection = LeadCollection.new
+leads = LeadCollection.parse_json_from_leads_file(LEADS_FILE)
+
+lead_collection.initialize_leads_as_lead_objects(leads)
+
+lead_collection.sorted_by_date_desc.each do |lead|
+  result = lead_collection.store_lead_if_valid(lead)
+
+  if result[:success] == false
+    valid_lead = result[:existing_lead]
+    valid_lead.compare_and_store_changes_against(lead)
+    lead_collection.update_duplicate_counts(valid_lead)
+  end
+end
+
+lead_collection.output_change_log_file_info
+lead_collection.output_summary_to_cli
+lead_collection.update_change_log
+file_name = lead_collection.create_valid_leads_file
+lead_collection.output_valid_leads_file_path(file_name)

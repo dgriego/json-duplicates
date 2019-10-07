@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require "fileutils"
+
+FileUtils.rm(Dir.glob("valid-leads-*"))
+File.truncate("change_log.txt", 0)

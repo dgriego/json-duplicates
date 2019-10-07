@@ -1,0 +1,51 @@
+[LOG_ENTRY: 20191006-16:57:10] ------------------------------------------------------
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE ID FOUND: 1
+
+UPDATED LEAD:
+{
+  "id": "1",
+  "email": "bill@bar.com",
+  "first_name": "John",
+  "last_name": "Smith",
+  "address": "888 Mayberry St",
+  "entry_date": "2015-07-07T17:33:20+00:00"
+}
+
+FIELD CHANGES:
+email field changed from "coo@bar.com" to "bill@bar.com"
+first_name field changed from "Ted" to "John"
+last_name field changed from "Jones" to "Smith"
+address field changed from "456 Neat St" to "888 Mayberry St"
+entry_date field changed from "2014-05-07T17:32:20+00:00" to "2015-07-07T17:33:20+00:00"
+
+[LEAD UPDATED]
+-------------------------------------------------------------------------------------
+DUPLICATE EMAIL FOUND: march@bar.com
+DUPLICATE ID FOUND: 2
+
+UPDATED LEAD:
+{
+  "id": "2",
+  "email": "march@bar.com",
+  "first_name": "Ted",
+  "last_name": "Jones",
+  "address": "456 Neat St",
+  "entry_date": "2014-05-07T17:32:20+00:00"
+}
+
+FIELD CHANGES:
+entry_date field changed from "2014-04-07T17:32:20+00:00" to "2014-05-07T17:32:20+00:00"
+
+
+[SUMMARY]-------------------------------
+
+Total potential leads: 6
+Total valid leads: 4
+Duplicate leads by email: 1
+Duplicate leads by id: 2
+Leads removed: 2
+
+----------------------------------------

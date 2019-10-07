@@ -6,10 +6,18 @@
       "firstName": "John",
       "lastName": "Smith",
       "address": "888 Mayberry St",
-      "entryDate": "2014-07-07T17:33:20+00:00"
+      "entryDate": "2015-07-07T17:33:20+00:00"
     },
     {
       "_id": "1",
+      "email": "coo@bar.com",
+      "firstName": "Ted",
+      "lastName": "Jones",
+      "address": "456 Neat St",
+      "entryDate": "2014-05-07T17:32:20+00:00"
+    },
+    {
+      "_id": "5",
       "email": "coo@bar.com",
       "firstName": "Ted",
       "lastName": "Jones",
