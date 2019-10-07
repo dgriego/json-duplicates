@@ -57,14 +57,18 @@ class LeadCollection
   end
 
   def find_valid_lead(lead)
-    index = @valid.find_index do |valid_lead|
+    match = nil
+
+    index = @valid.each_with_index do |valid_lead|
       id_match = (valid_lead.id == lead.id)
       email_match = (valid_lead.email == lead.email)
 
-      id_match || email_match
+      if (id_match || email_match)
+        match = valid_lead
+      end
     end
 
-    index ? @valid[index] : nil
+    match
   end
 
   def output_summary_to_cli
